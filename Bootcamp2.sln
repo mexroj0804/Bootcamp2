@@ -3,9 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N1", "N1", "{A8014449-DD1F-4A80-92EA-9FE3BF6B086B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{ABAD05DA-4397-4F97-85F6-28981DFC9E56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T-1", "T-1\T-1.csproj", "{D164443F-BD69-4221-A6B6-09C07CBA4796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "N2", "N2", "{790B7765-E49E-4BC3-BA7D-91B368390336}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Amaliyot", "Amaliyot", "{AF7336E4-5BBB-4866-A829-BE281410E40E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapper", "Mapper\Mapper.csproj", "{181BE89E-A358-4278-B28C-8B009E7E63CF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D164443F-BD69-4221-A6B6-09C07CBA4796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D164443F-BD69-4221-A6B6-09C07CBA4796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D164443F-BD69-4221-A6B6-09C07CBA4796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D164443F-BD69-4221-A6B6-09C07CBA4796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181BE89E-A358-4278-B28C-8B009E7E63CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181BE89E-A358-4278-B28C-8B009E7E63CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181BE89E-A358-4278-B28C-8B009E7E63CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181BE89E-A358-4278-B28C-8B009E7E63CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABAD05DA-4397-4F97-85F6-28981DFC9E56} = {A8014449-DD1F-4A80-92EA-9FE3BF6B086B}
+		{D164443F-BD69-4221-A6B6-09C07CBA4796} = {ABAD05DA-4397-4F97-85F6-28981DFC9E56}
+		{AF7336E4-5BBB-4866-A829-BE281410E40E} = {790B7765-E49E-4BC3-BA7D-91B368390336}
+		{181BE89E-A358-4278-B28C-8B009E7E63CF} = {AF7336E4-5BBB-4866-A829-BE281410E40E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91AD89B8-A56F-47B5-B7D0-46F2BF3AB396}
